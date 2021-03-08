@@ -45,7 +45,7 @@ public class RoadController { // une classe ne peut contenir que les variables e
         int carHeight = car.height;
         int price = 0;
         if (carHeight > controllerMaxHeight) {
-            blockWay("La hauteur de votre vehicule depasse les normes autorisés!");
+            blockWay("La hauteur de votre vehicule depasse les normes autorisés!"); // la raison du refus
             return -1;
         } else if (carHeight > passengerCarMaxHeight) {
             double weight = car.weight;
